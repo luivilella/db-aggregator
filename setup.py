@@ -5,7 +5,7 @@ with open('requirements.txt', 'r') as f:
     requirements = f.readlines()
 
 setup(
-    name='db-aggregator',
+    name='dbaggregator',
     version='0.1',
     description='Package helpful to manage database connections',
     url='https://github.com/luivilella/db-aggregator',
