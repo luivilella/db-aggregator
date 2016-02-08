@@ -7,7 +7,7 @@ with open('requirements.txt', 'r') as f:
 setup(
     name='db-aggregator',
     version='0.1',
-    description='Package helpful for manage database connections',
+    description='Package helpful to manage database connections',
     url='https://github.com/luivilella/db-aggregator',
     author='Luis Eduardo Vilella',
     author_email='luivilella@gmail.com',
