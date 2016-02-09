@@ -1,6 +1,6 @@
 # coding: utf8
 import unittest
-from db_aggregator.db_aggregator import DBAggregator
+from dbaggregator.dbaggregator import DBAggregator
 
 
 db_conn = 'sqlite:///tests/foo.db'

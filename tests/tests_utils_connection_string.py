@@ -1,8 +1,8 @@
 # coding: utf8
 import unittest
 from os.path import abspath
-from db_aggregator.utils import DBAggregatorException
-from db_aggregator.utils.connection_string import (
+from dbaggregator.utils import DBAggregatorException
+from dbaggregator.utils.connection_string import (
     conn_str_by_dict,
     conn_str_by_iniconf,
 )

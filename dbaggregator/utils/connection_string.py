@@ -1,7 +1,7 @@
 # coding: utf8
 from ConfigParser import SafeConfigParser
-from db_aggregator.utils import DBAggregatorException
-from db_aggregator.db_aggregator import DBAggregator
+from dbaggregator.utils import DBAggregatorException
+from dbaggregator.dbaggregator import DBAggregator
 
 
 def conn_str_by_dict(db_conf):

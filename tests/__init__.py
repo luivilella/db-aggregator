@@ -1,6 +1,6 @@
 # coding: utf8
 import unittest
-from tests_db_aggregator import TestDBAggregator
+from tests_dbaggregator import TestDBAggregator
 from tests_utils_connection_string import TestUtilsConnectionString
 
 
