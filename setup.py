@@ -1,5 +1,5 @@
 # coding: utf8
-from setuptools import setup
+from setuptools import setup, find_packages
 
 with open('requirements.txt', 'r') as f:
     requirements = f.readlines()
@@ -12,6 +12,7 @@ setup(
     author='Luis Eduardo Vilella',
     author_email='luivilella@gmail.com',
     license='BSD',
+    packages=find_packages(),
     install_requires=requirements,
     zip_safe=False,
 )
